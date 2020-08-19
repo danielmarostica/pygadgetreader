@@ -82,6 +82,7 @@ Before building the module, there are a few customizations you *may* want to tin
 Once the code is downloaded there are two methods of installation depending on your access rights.  If you have write access to your python distribution, then the preferred method is to execute the following commands:
 
 ~~~Bash
+    > pip install -r requirements.txt
 	> python setup.py build     ## this builds the module
 	> python setup.py install   ## this installs the module, may require sudo
 ~~~
